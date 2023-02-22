@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap');
+
+
+/*
+#AB87FA roxo pastel
+#3B1D7A roxo forte
+#783CFA roxo medio
+#54427A roxo pastel forte
+*/
+
+:root{
+    --roxopastel:#AB87FA;
+    --roxopastelforte:#54427A;
+    --roxomedio:#783CFA;
+    --roxoforte:#3B1D7A ;
+
+    --fontepadrao: Arial,Verdana,Helvetica,sans-serif;
+}
+
+
+
+
+body{
+    background-color: var(--roxopastel) ;
+    font-family: 'Exo', sans-serif;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+}
+
+header > div > h1{
+    color: white;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+  
+}
+nav > a{
+    transition-duration: 1s;
+    padding: 2px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 18px;
+
+}
+nav > a:hover{
+    color: white;
+    background-color: #AB87FA;
+    text-decoration: underline;
+}
+
+#as{
+    transition-duration: 1s;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 18px;
+}
+
+#as:hover{
+    background-color: #AB87FA;
+    text-decoration: underline;
+}
+
+header > div{
+    background-image: linear-gradient(to bottom,var(--roxoforte),black);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    min-height: 80px;
+    max-height: 130px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.artc{
+    background-color: var(--roxomedio);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    margin:auto;
+    min-width: 320px;
+    max-width: 800px;
+    color: white;
+    margin-top: 10px;
+}
+
+.artc >  p{
+    margin: 15px;
+}
+
+footer{
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom,var(--roxopastelforte),rgb(245, 133, 255));
+}
+
+
