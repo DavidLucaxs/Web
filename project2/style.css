@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Dancing+Script:wght@600&family=Gloria+Hallelujah&display=swap');
+
+:root{
+    --font1 : Verdana, Tahoma,sans-serif;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+   /* font-family: var(--font1);*/
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Cormorant SC', var(--font1);
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vh;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 10%;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 4.1vh;
+    text-shadow: 2px 1px 1px black;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+    font-family: 'Gloria Hallelujah', var(--font1);
+}
+
+section.imagem{
+    background-color: black;
+    color: white;
+    font-family: 'Dancing Script', var(--font1);
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    display: inline-block;
+}
+
+#img1{
+
+    background-image: url(../project2/imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+#img2{
+    background-image: url(../project2/imagens/background002.jpg);
+    
+
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 2s;
+    border-radius: 10px;
+    padding: 3.7px;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
